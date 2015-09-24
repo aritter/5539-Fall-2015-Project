@@ -48,7 +48,7 @@ The fields are as follows:
 * date / time the tweet was written
 * Reference date of temporal expression (using TempEx)
 * Named entity
-* NE type
+* (not used...)
 * tokenized words
 * Parts of speech
 * Named entity tags
