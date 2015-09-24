@@ -8,7 +8,7 @@ In general it takes a lot of effort to get (gathering data, processing with NLP 
 Freebase Data:
 --------------
 
-Unfortunately <a href='https://www.freebase.com/'>Freebase</a> was recently shut down, though we have provided some data in a simplified (easy-to-use) file format in "freebase_data".  Some examples are below:
+Unfortunately <a href='https://www.freebase.com/'>Freebase</a> was recently shut down, though we have provided some data in a simplified (easy-to-use) file format in <a href='freebase_data'>freebase_data</a>.  Some examples are below:
 
 	      ['championship', 'super bowl', 'indianapolis colts', u'2007-02-04']
 	      ['championship', 'world series', 'boston red sox', u'2007-10-28']
