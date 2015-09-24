@@ -76,5 +76,4 @@ Other Datasets:
 
 Some other large marked-up text datasets are available here: http://deepdive.stanford.edu/doc/opendata/
 
-You are also encouraged to explore other potential structured data sources as weak supervision as well.
-
+You are also encouraged to explore other potential structured data sources as weak supervision as well, for instance <a href='https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/'>UMLS Metathesaurus</a> for text in the biomedical domain.
