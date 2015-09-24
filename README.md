@@ -3,7 +3,7 @@ Fall 2015 5539 Course Project
 
 The purpose of the project is to give you the opportunity to interact with some of the datasets and methods discussed in the papers we are reading in class.
 
-In general it takes a lot of effort to get (gathering data, processing with NLP tools, etc...) so we are making several datasets available for you to use for the class project.  You are highly encouraged, though not required to use these datasets.
+In general it takes a lot of time and effort to build these datasets (gathering data, processing with NLP tools, etc...) before you can start doing anything interesting, so we are making several datasets available for you to use for the class project.  You are highly encouraged, though not required to use these datasets.
 
 Freebase Data:
 --------------
@@ -62,6 +62,11 @@ Annotated Gigaword:
 -------------------
 
 Another (newswire) dataset is annotated gigaword: https://catalog.ldc.upenn.edu/LDC2012T21
+
+Freebase-match NYT dataset
+-------------------
+
+If you are not so interested in doing feature extraction steps and want to get directly to implementing algorithms, there is also a relation extraction dataset (Freebase + new york times data) with features already extracted from <a href='http://people.cs.umass.edu/~lmyao/papers/riedel10modeling.pdf'>this paper</a>.
 
 Other Datasets:
 ----------------------------------
