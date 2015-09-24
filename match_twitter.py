@@ -38,11 +38,11 @@ def GetSegments(words, annotations, tag, lower=True, getIndices=False):
             results = [x.lower() for x in results]            
     return results
 
-entities2event = {}
+entities2rel = {}
 for line in open('freebase_data'):
     (event, a1, a2, date) = eval(line.strip())
     try:
-        entities2event[(a1, a2)] = entities2event.get((a1, a2), []) + [{'type':event, 'date':datetime.datetime.strptime(date, '%Y-%m-%d')}]
+        entities2rel[(a1, a2)] = entities2rel.get((a1, a2), []) + [{'type':event, 'date':datetime.datetime.strptime(date, '%Y-%m-%d')}]
     except:
         pass
 
@@ -69,9 +69,6 @@ for line in F_IN:
 
     for e1 in entities:
         for e2 in entities:
-            if entities2event.has_key((e1.lower(), e2.lower())):
-                for event in entities2event[(e1.lower(), e2.lower())]:
-                    if abs((tweetDate - event['date']).days) < 10:
-                        print json.dumps({'sid':sid, 'entity':entity, 'created_at':created_at, 'words':words, 'pos':pos, 'neTags':neTags})
-                        print event
-                        print tweetDate - event['date']
+            if entities2rel.has_key((e1.lower(), e2.lower())):
+                for rel in entities2rel[(e1.lower(), e2.lower())]:
+                    print (rel['type'], e1, e2, words)
