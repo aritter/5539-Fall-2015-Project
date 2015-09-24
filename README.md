@@ -69,7 +69,7 @@ Email the instructor for access.
 Freebase-match NYT dataset
 -------------------
 
-If you are not so interested in doing feature extraction steps and want to get directly to implementing algorithms, there is also a relation extraction dataset (Freebase + new york times data) with features already extracted from <a href='http://people.cs.umass.edu/~lmyao/papers/riedel10modeling.pdf'>this paper</a>.
+If you are not so interested in feature engineering and want to get straight to implementing algorithms, there is also a relation extraction dataset (Freebase + new york times data) with features already extracted from <a href='http://people.cs.umass.edu/~lmyao/papers/riedel10modeling.pdf'>this paper</a>.
 
 Other Datasets:
 ----------------------------------
