@@ -57,7 +57,7 @@ The fields are as follows:
 
 One possible project would be to combine these datasets and train a weakly supervised relation (or event) extractor for Twitter.  To give an example of how you might get started doing this, the python script
 <a href='match_twitter.py'>match_twitter.py</a> reads in the Freebase data, then iterates through the Twitter data and identifies messages that mention pairs of entities participating in one of the relations.
-Example output is <a href='sample_matches'>here</a> (you probably don't want to use this output, but instead modify the script...).
+Example output is <a href='sample_matches'>here</a>.
 Have a look at this <a href='http://web.stanford.edu/~jurafsky/mintz.pdf'>paper</a> for more details.  A good machine learning package for python is <a href='http://scikit-learn.org/stable/'>scikit-learn</a>.
 
 Annotated Gigaword:
