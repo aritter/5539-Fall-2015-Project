@@ -30,7 +30,7 @@ Twitter Data:
 --------------
 
 One interesting text datasource to work with is Twitter data.  We have prepared a ~20GB Twitter dataset which is marked up with NLP various annotations (named entities, parts of speech, chunk tags, etc...).
-Please email the instructor if you would like to get access to this data for your project.  This dataset will take a while to download, so you will probably want a stable network connection.
+Please email the instructor if you would like to get access to this data for your project.  Note that this dataset will take a while to download, so you will probably want to do it on a stable network connection overnight or something...
 
 The data in the file looks like so (we have included a script to parse this file...):
 
