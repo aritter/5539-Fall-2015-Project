@@ -72,7 +72,7 @@ Freebase-match NYT dataset
 If you are not so interested in feature engineering and want to get straight to implementing algorithms, there is also a relation extraction dataset (Freebase + <a href='https://catalog.ldc.upenn.edu/LDC2008T19'>new york times</a> data) with features already extracted from <a href='http://people.cs.umass.edu/~lmyao/papers/riedel10modeling.pdf'>this paper</a>.
 This dataset was also been used in a number of subsequent papers, for instance <a href='http://raphaelhoffmann.com/publications/acl2011.pdf'>Hoffmann et. al.</a>
 
-The data is provided in <a href='https://developers.google.com/protocol-buffers/?hl=en'>Google Protobuf</a> format.  Sample code to parse the data is available <a href='nyt_data/ParseNYT.scala'>here</a>.  You can run the example like so (requires <a href='http://www.scala-sbt.org/'>SBT</a>:
+The data is provided in <a href='https://developers.google.com/protocol-buffers/?hl=en'>Google Protobuf</a> format.  Sample code to parse the data is available <a href='nyt_data/ParseNYT.scala'>here</a>.  You can run the example like so (requires <a href='http://www.scala-sbt.org/'>SBT</a>):
 
 	sbt "run train-Multiple.pb.gz"
 
