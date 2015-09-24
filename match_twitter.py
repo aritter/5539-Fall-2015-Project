@@ -46,11 +46,16 @@ for line in open('freebase_data'):
     except:
         pass
 
+prev_id = None
 for line in F_IN:
     fields = line.strip().split('\t')
     if len(fields) != 11:
         continue
     (sid, uid, loc, created_at, date, entity, eType, words, pos, neTags, eventTags) = fields
+
+    if sid == prev_id:
+        continue
+    prev_id = sid
 
     entities = GetSegments(words.split(' '), neTags.split(' '), 'ENTITY')
 
