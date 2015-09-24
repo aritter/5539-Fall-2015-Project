@@ -22,7 +22,7 @@ Unfortunately <a href='https://www.freebase.com/'>Freebase</a> was recently shut
 	      ['acquired', 'reliance mediaworks', 'digital domain', u'2012-09-21']
 	      ...
 
-In each case, a tuple is listed which consists of a relation, a pair of entities involved, and an associated date.
+In each case, a tuple is listed which consists of a relation, a pair of entities, and an associated date.
 
 This data can be used, for example to train weakly supervised relation extractors.
 
